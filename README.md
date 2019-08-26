@@ -5,3 +5,5 @@
  2.使用LocalBroadcastManager 发送从服务端接受的消息
 
  /libs  四个jar包 mina必要
+
+ mina服务端源码： https://github.com/RightOfHand/MeniaService
