@@ -6,4 +6,4 @@
 
  /libs  四个jar包 mina必要
 
- mina服务端源码： https://github.com/RightOfHand/MeniaService
+ mina服务端源码： https://github.com/RightOfHand/MinaService.git
