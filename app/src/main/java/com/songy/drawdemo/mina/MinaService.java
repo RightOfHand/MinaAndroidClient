@@ -9,7 +9,7 @@ import android.os.IBinder;
 import androidx.annotation.Nullable;
 
 /**
- * Description:
+ * Description:后台服务 保持连接
  *
  * @author by song on 2019-08-21.
  * email：bjay20080613@qq.com

@@ -18,7 +18,7 @@ import java.lang.ref.WeakReference;
 import java.net.InetSocketAddress;
 
 /**
- * Description:mina 客户端管理器
+ * Description:mina 客户端与服务端连接管理器
  *
  * @author by song on 2019-08-21.
  * email：bjay20080613@qq.com
@@ -60,7 +60,7 @@ public class ConnectionManager {
             ConnectFuture future=mConnector.connect();
             future.awaitUninterruptibly();
             mSession=future.getSession();
-            SessionManager.getInstance().setmSession(mSession);
+            SessionManager.getInstance().setSession(mSession);
         } catch (Exception e) {
             e.printStackTrace();
             return false;

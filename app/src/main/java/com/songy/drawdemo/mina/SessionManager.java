@@ -3,7 +3,7 @@ package com.songy.drawdemo.mina;
 import org.apache.mina.core.session.IoSession;
 
 /**
- * Description:
+ * Description:会话管理器
  *
  * @author by song on 2019-08-21.
  * email：bjay20080613@qq.com
@@ -31,7 +31,7 @@ public class SessionManager {
 
     }
 
-    public void setmSession(IoSession mSession) {
+    public void setSession(IoSession mSession) {
         this.mSession = mSession;
     }
 

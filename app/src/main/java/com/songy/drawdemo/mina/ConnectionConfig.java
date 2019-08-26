@@ -3,7 +3,7 @@ package com.songy.drawdemo.mina;
 import android.content.Context;
 
 /**
- * Description:
+ * Description:配置清单
  *
  * @author by song on 2019-08-21.
  * email：bjay20080613@qq.com
